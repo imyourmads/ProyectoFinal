@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js"></script>
+        <title> Formulario Interactivo </title>
+    </head>
+     <body>
+     <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">MARTÍN LUTERO Y LA REFORMA PROTESTANTE</a></li>
+                <li><a href="tesis.html">Contenido de las tesis y su impacto</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+            </ul>
+        </nav>
+    </header>
+        <h1> DANOS TU OPINIÓN! </h1>
+ <div class="contenedor-formulario">
+        <h2>Contáctanos!</h2>
+        <form id="formulario-contacto">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="correo">Correo Electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+            <button type="submit" id="boton-enviar">Enviar Mensaje</button>
+        </form>
+        <p id="mensaje-estado"></p>
+    </div>       
+     </body>
